@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        music = MediaPlayer.create(this, R.raw.musicTest);
+        music = MediaPlayer.create(this, R.raw.musictest);
     }
 
     public void  musicPlay(View view){
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void  musicStop(View view){
         music.stop();
-        music = MediaPlayer.create(this,R.raw.musicTest);
+        music = MediaPlayer.create(this,R.raw.musictest);
     }
 
 }
