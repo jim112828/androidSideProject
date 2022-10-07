@@ -33,7 +33,7 @@ public class ExampleInstrumentedTest {
     }
     @Test
     public void checkText(){
-       final String hw = "Hello World!";
-       //onView(withId(R.id.hello)).check(matches(withText(hw)));
+       final String hw = "GUESS THE NUMBER";
+       onView(withId(R.id.textView)).check(matches(withText(hw)));
     }
 }
