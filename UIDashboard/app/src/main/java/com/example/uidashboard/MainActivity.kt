@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val profileB: ImageButton = findViewById(R.id.profileB)
 
         val todoB: Button = findViewById(R.id.todoB)
-        val editProfileB: Button = findViewById(R.id.profileB)
+        val editProfileB: Button = findViewById(R.id.editProfileB)
 
         val contributeCard: CardView = findViewById(R.id.contributeCard)
         val practiceCard: CardView = findViewById(R.id.practiceCard)
