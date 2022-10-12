@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @SuppressLint("MutatingSharedPrefs")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -23,7 +23,7 @@ public class NoteEditorActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        noteId = intent.getIntExtra("moteId", -1);
+        noteId = intent.getIntExtra("noteId", -1);
         if (noteId != -1){
             editText.setText((Integer) MainActivity.notes.get(noteId));
         }else {
