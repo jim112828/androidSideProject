@@ -11,8 +11,6 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.photoview.ImageDetailActivity;
-import com.example.photoview.R;
 import com.squareup.picasso.Picasso;
 
 import java.io.File;
@@ -34,7 +32,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public RecyclerViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         // Inflate Layout in this method which we have created.
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.car_layout, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_layout, parent, false);
         return new RecyclerViewHolder(view);
     }
 
